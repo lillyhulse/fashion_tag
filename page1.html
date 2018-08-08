@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<title>GUCCI GANG</title>
+<link href='css/bootstrap.css' rel='stylesheet'>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+<style>
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: "Oswald"
+  }
+
+  body {
+    font-family: "Open Sans";
+    background-image: url("https://cmkt-image-prd.global.ssl.fastly.net/0.1.0/ps/4148881/300/200/m1/fpnw/wm0/stock-photo-10-.jpg?1521328404&s=0593008711cbeb8e500e062a7bf075e7")
+  }
+</style>
+
+<body class="w3-light-grey">
+
+
+  <!-- Navigation bar with social media icons -->
+  <div class="w3-bar w3-black w3-hide-small">
+    <a href="#" class="w3-bar-item w3-button"><i class="fa fa-facebook-official"></i></a>
+    <a href="#" class="w3-bar-item w3-button"><i class="fa fa-instagram"></i></a>
+    <a href="#" class="w3-bar-item w3-button"><i class="fa fa-snapchat"></i></a>
+    <a href="#" class="w3-bar-item w3-button"><i class="fa fa-flickr"></i></a>
+    <a href="#" class="w3-bar-item w3-button"><i class="fa fa-twitter"></i></a>
+    <a href="#" class="w3-bar-item w3-button"><i class="fa fa-linkedin"></i></a>
+    <a href="#" class="w3-bar-item w3-button w3-right"><i class="fa fa-search"></i></a>
+  </div>
+
+  <!-- w3-content defines a container for fixed size centered content,
+and is wrapped around the whole page content, except for the footer in this example -->
+  <div class="w3-content" style="max-width:1600px">
+
+    <!-- Header -->
+    <header class="w3-container w3-center w3-padding-40 w3-white">
+      <h1 class="w3-xxxlarge"><b>FASHION TAG</b></h1>
+      <h6>Welcome to the world of <span class="w3-tag">FASHION</span></h6>
+    </header>
+
+    <!-- Image header -->
+    <header class="w3-display-container w3-wide" id="home">
+      <div class="w3-display-left w3-padding-large">
+    <h1 class="w3-jumbo w3-text-black w3-hide-small"></h1>
+  </div>
+</header>
+
+    <!-- Grid -->
+    <div class="w3-row w3-padding w3-border">
+
+      <!-- Blog entries -->
+      <div class="w3-col l8 s12">
+
+        <!-- Blog entry -->
+        <div class="w3-container w3-white w3-margin w3-padding-large">
+          <div class="w3-center">
+            <h1>GUCCI GANG</h1>
+            <div class="w3-justify">
+            <img src="https://scontent-frt3-2.cdninstagram.com/vp/d7de25d5f7ad6016b644142fa9f95c7e/5BEDBA4F/t51.2885-15/e35/26866319_392022194575474_6380515080345223168_n.jpg?se=8&amp;ig_cache_key=MTcwMDExOTc3ODE3MTE3ODUzNQ%3D%3D.2" style="width:100%" itemprop="contentUrl">
+            
+        </div>
+        <hr>
+
+
+        <!-- END BLOG ENTRIES -->
+      </div>
+
+  <!-- Footer -->
+  <footer class="w3-container w3-dark-grey" style="padding:32px">
+    <a href="#" class="w3-button w3-black w3-padding-large w3-margin-bottom"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+    <p>Powered by <a href="https://www.vodafone.com/content/index/what/technology-blog/codelikeagirl.html#" target="_blank">vodafone #CodeLikeaGirl</a></p>
+  </footer>
+
+  <script>
+    // Toggle between hiding and showing blog replies/comments
+    document.getElementById("myBtn").click();
+
+    function myFunction(id) {
+      var x = document.getElementById(id);
+      if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+      } else {
+        x.className = x.className.replace(" w3-show", "");
+      }
+    }
+
+    function likeFunction(x) {
+      x.style.fontWeight = "bold";
+      x.innerHTML = "✓ Liked";
+    }
+  </script>
+
+</body>
+
+</html>
